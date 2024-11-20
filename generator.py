@@ -37,3 +37,10 @@ def generate_password(length=12, use_upper=True, use_digits=True, use_special=Tr
     random.shuffle(password)
 
     return ''.join(password)
+
+
+
+# Explanation:
+# string.ascii_lowercase, string.ascii_uppercase, string.digits, and string.punctuation provide the character sets.
+# It ensures at least one character from each selected type is included in the password.
+# The random.shuffle() function ensures randomness.

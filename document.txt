@@ -1,0 +1,22 @@
+-Plan the File Structure
+Organize your project into three files:
+
+main.py: The entry point of the application. It will coordinate the program by calling functions from other files.
+generator.py: Contains the logic for generating passwords.
+user_input.py: Handles user interaction and gathers preferences.
+
+
+
+
+- Why Use This Structure?
+
+1. Separation of Concerns:
+generator.py handles the logic for generating passwords.
+user_input.py handles interaction with the user.
+main.py coordinates the flow of the application.
+
+2. Reusability:
+You can reuse generator.py in other projects or add new input methods (e.g., a GUI).
+
+3. Scalability:
+The modular design makes it easy to add features like saving passwords or using APIs for additional functionality.

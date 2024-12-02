@@ -7,7 +7,7 @@ The goal is to create a Python-based program that generates random passwords bas
 <li>Inclusion of uppercase letters, numbers, and special characters.</li>
 </ul>
 <ol>
-<p>The project should:</p>
+<p>The project should have the following characteristics:</p>
 <li>Be modular (divided into separate files for logic and user interaction).</li>
 <li>Have robust error handling.</li>
 <li>Be easy to extend or modify.</li>

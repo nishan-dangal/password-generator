@@ -2,7 +2,7 @@ def get_user_input():
     """
     Gather user preferences for the password generation.
     """
-    print("Welcome to the Password Generator!")
+    print("Welcome everyone, this is a password generator!")
     try:
         # Get password length
         length = int(input("Enter your password length (minimum 4): "))

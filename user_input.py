@@ -5,9 +5,9 @@ def get_user_input():
     print("Welcome to the Password Generator!")
     try:
         # Get password length
-        length = int(input("Enter password length (minimum 4): "))
+        length = int(input("Enter your password length (minimum 4): "))
     except ValueError:
-        print("Invalid input. Setting default length to 12.")
+        print("Invalid input by the user. Setting default length to 12.")
         length = 12
 
     # Get preferences for character types
